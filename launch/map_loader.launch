@@ -17,7 +17,7 @@
     <arg name="y" default="0.0" />
     <arg name="z" default="0.0" /> -->
 
-    <!--- Run Rviz-->
+    <!--- Run Rviz -->
     <node pkg="rviz" type="rviz" name="rviz" args="-d $(find ndt_localizer)/cfgs/rock-auto.rviz" />
 
     <!--- MapLoader -->    
